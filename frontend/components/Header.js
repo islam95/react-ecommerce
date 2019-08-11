@@ -33,6 +33,9 @@ const Logo = styled.h1`
     margin: 0;
     text-align: center;
   }
+  @media (max-width: 700px) {
+    font-size: 2rem;
+  }
 `;
 
 const StyledHeader = styled.header`
@@ -59,7 +62,7 @@ const Header = () => (
     <div className="bar">
       <Logo>
         <Link href="/">
-          <a>Sick Fits</a>
+          <a>React Shop</a>
         </Link>
       </Logo>
       <Nav />
